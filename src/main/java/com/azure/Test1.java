@@ -1,8 +1,11 @@
 package com.azure;
 
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 public class Test1 {
 
-	public static void main(String[] args) {
-		System.out.println("hellow");
-	}
-}
+ 	@Test
+	public void azureTestCases() {
+    	Assert.assertEquals(1,1);
+		System.out.println("hellow");}}
